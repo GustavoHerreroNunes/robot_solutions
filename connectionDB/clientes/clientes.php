@@ -4,8 +4,7 @@
     class Clientes{
         
         //Atributos
-
-        private $conn 
+        private $conn;
 
         private $id;
         private $nome;
@@ -63,7 +62,7 @@
         public function Cadastrar(){
             try{
 
-                $this->conn = new Connection();
+                $this->conn = new Connect();
                 $sql = $this->conn->prepare("insert into clientes values (null,?,?,?,?,?)");
                 @$sql->bindParam(1, $this->getNome(), PDO::PARAM_STR);
                 @$sql->bindParam(2, $this->getTelefone(), PDO::PARAM_STR);
@@ -73,11 +72,11 @@
 
                 if($sql->execute() == true){
                     return "Cliente cadastrado com sucesso";
+                }else{
+                    return "Erro ao cadastrar cliente";
                 }
 
                 $this->conn = null;
-
-                echo "<script>console.log('Passou do return')</script>";
 
             }catch(PDOException $error){
 
