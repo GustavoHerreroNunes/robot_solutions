@@ -1,5 +1,8 @@
 <?php
-    require_once("../connection.php");
+    //Captando path do servidor
+    $root = realpath($_SERVER["DOCUMENT_ROOT"]);
+
+    require_once("$root/Jefferson-aulas/exercicios/quinzena-6/connectionDB/connection.php");
     
     class Clientes{
         
@@ -82,6 +85,25 @@
 
                 return "Erro ao cadastrar cliente: ".$error->getMessage();
                 
+            }
+        }
+
+        //Método para Consultar todos os registros contidos na tabela
+        public function Consultar(){
+            try{
+
+                $this->conn = new Connect();
+                $sql = $this->conn->prepare("select * from clientes");
+                $sql->execute();
+
+                return $sql->fetchAll();
+                
+                $this->conn = null;
+
+            }catch(PDOException $error){
+
+                return "Erro ao consultar registros: ".$error->getMessage();
+
             }
         }
 
