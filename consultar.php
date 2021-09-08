@@ -29,7 +29,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./consultar.html">Consultar</a>
+                <a class="nav-link active" aria-current="page" href="./consultar.php">Consultar</a>
               </li>
             </ul>
           </div>
@@ -51,24 +51,9 @@
               </tr>
             </thead>
             <tbody id="TableData">
-              <tr>
-                <td>Pane</td>
-                <td>(11) 93788-1823</td>
-                <td>Google Ads</td>
-                <td>11/02/2021</td>
-                <td>Tone</td>
-                <td><a href="./editar.html"><img src="./img/editar.png" width="25" height="25" alt="Editar Registro"></a></td>
-                <td><a href="./excluir.html"><img src="./img/excluir.png" width="25" height="25" alt="Excluir Registro"></a></td>
-              </tr>
-              <tr>
-                <td>Jorge Cunha</td>
-                <td>(11) 93338-1823</td>
-                <td>Site</td>
-                <td>15/02/2002</td>
-                <td>283 lojas</td>
-                <td><a href="./editar.html"><img src="./img/editar.png" width="25" height="25" alt="Editar Registro"></a></td>
-                <td><a href="./excluir.html"><img src="./img/excluir.png" width="25" height="25" alt="Excluir Registro"></a></td>
-              </tr>
+              <?php 
+                require_once("connectionDB/clientes/controllerConsultar.php");
+              ?>
             </tbody>
           </table>
         </div>
