@@ -57,8 +57,6 @@
             </tbody>
           </table>
         </div>
-
-        <button type="button" name="btnBuscar" id="btnBuscar" class="btn btn-primary">Buscar Registros</button>
       </div>
 
       <!--Script base para o Bootstrap-->
