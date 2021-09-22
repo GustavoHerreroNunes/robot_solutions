@@ -88,22 +88,39 @@
             }
         }
 
-        //Método para Consultar todos os registros contidos na tabela
-        public function Consultar(){
-            try{
+        //Método para Consultar registros contidos na tabela
+        public function Consultar($param){
+            if(isset($param)){//Se o parâmetro foi inserido
 
-                $this->conn = new Connect();
-                $sql = $this->conn->prepare("select * from clientes");
-                $sql->execute();
+                try{
+                    $sql_instruction = "select * from clientes";
 
-                return $sql->fetchAll();
-                
-                $this->conn = null;
+                    if($param != "*"){//Se o parâmetro inserido não indicar a seleção de todos os registros
 
-            }catch(PDOException $error){
+                        if($param > 0){//Se o parâmetro inserido não for menor ou igual a 0
 
-                return "Erro ao consultar registros: ".$error->getMessage();
+                            $sql_instruction += " where id = ".$param;
 
+                        }else{
+                            return "Parâmeto não pode ser menor ou igual a 0";
+                        }
+                    }
+    
+                    $this->conn = new Connect();
+                    $sql = $this->conn->prepare($sql_instruction);
+                    $sql->execute();
+    
+                    return $sql->fetchAll();
+                    
+                    $this->conn = null;
+    
+                }catch(PDOException $error){
+    
+                    return $error->getMessage();
+    
+                }
+            }else{
+                return "Parâmetro não inserido";
             }
         }
 

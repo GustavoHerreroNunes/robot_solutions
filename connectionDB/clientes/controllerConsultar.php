@@ -16,12 +16,15 @@
         public function executar(){
             $registries_found = false;//Indica se os registros foram encontrados
 
-            $db_registries = $this->clientes->consultar();
+            $db_registries = $this->clientes->consultar("*");
 
             //Se a variável "db_registries" tiver recebido uma mensagem de erro ao invés dos registros
             if(is_string($db_registries)){
 
-                echo "<script>alert('".$db_registries."');</script>";
+                echo "<script>
+                        alert('Erro ao consultar registros');
+                        console.log('Erro ao consultar registros: ".$db_registries."');
+                      </script>";
 
             }else{
 
