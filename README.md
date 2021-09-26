@@ -136,10 +136,10 @@ Se você tem alguma ideia, sugestão, ou viu algum erro, você pode me contar [a
 
 [tarefas]: https://github.com/GustavoHerreroNunes/robot_solutions/projects
 
-[desktop-tela-cadastrar-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktopt-Tela_Cadastrar.jpg
-[desktop-tela-consultar-gif]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/gif/Desktopt-Tela_Consultar.gif
-[desktop-tela-editar-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktopt-Tela_Editar.jpg
-[desktop-tela-excluir-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktopt-Tela_Excluir.jpg
+[desktop-tela-cadastrar-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktop-Tela_Cadastrar.jpg
+[desktop-tela-consultar-gif]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/gif/Desktop-Tela_Consultar.gif
+[desktop-tela-editar-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktop-Tela_Editar.jpg
+[desktop-tela-excluir-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktop-Tela_Excluir.jpg
 
 [phpmyadmin-download]: https://www.phpmyadmin.net/downloads/
 [phpmyadmin-dashboard]: https://github.com/GustavoHerreroNunes/webLab/blob/main/assets/readme/phpmyadmin-dashboard
