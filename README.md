@@ -22,7 +22,7 @@
 
 :cd: [Contribuir](#contribuir-gift) 
 
-<!-->:cd:[Licença](#licença-notebook_with_decorative_cover)-->
+<!--:cd:[Licença](#licença-notebook_with_decorative_cover)-->
 
 ## Descrição :clipboard:
 
