@@ -10,7 +10,7 @@
 
 :cd: [Descrição](#descrição-clipboard) 
 
-:cd: [Funcionalidade](#funcionalidade-gear)    
+:cd: [Funcionalidade](#funcionalidades-gear)    
 
 :cd: [Layout da Aplicação](#layout-da-aplicação-art) 
 
@@ -22,7 +22,7 @@
 
 :cd: [Contribuir](#contribuir-gift) 
 
-:cd:[Licença](#licença-notebook_with_decorative_cover)
+<!-->:cd:[Licença](#licença-notebook_with_decorative_cover)-->
 
 ## Descrição :clipboard:
 
@@ -119,7 +119,7 @@ Se você tem alguma ideia, sugestão, ou viu algum erro, você pode me contar [a
 <!--## Licença :notebook_with_decorative_cover:
 <!--Pedir ajuda de alguém/ler sobre-->
 
-The [MIT License][] (MIT)-->
+<!--The [MIT License][] (MIT)-->
 
 <!---Links utilizados no documento-->
 
@@ -137,7 +137,7 @@ The [MIT License][] (MIT)-->
 [tarefas]: https://github.com/GustavoHerreroNunes/robot_solutions/projects
 
 [desktop-tela-cadastrar-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktopt-Tela_Cadastrar.jpg
-[desktop-tela-consultar-gif]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/gif/Desktopt-Tela_Consultar.jpg
+[desktop-tela-consultar-gif]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/gif/Desktopt-Tela_Consultar.gif
 [desktop-tela-editar-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktopt-Tela_Editar.jpg
 [desktop-tela-excluir-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktopt-Tela_Excluir.jpg
 
