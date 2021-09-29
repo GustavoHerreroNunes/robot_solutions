@@ -35,6 +35,7 @@ Este projeto é um sistema web para registro e manuntenção de dados de cliente
 
 - Cadastrar clientes
 - Consultar registros de clientes
+- Editar registros de clientes
 
 ## Layout da Aplicação :art:
 
@@ -53,10 +54,6 @@ Este projeto é um sistema web para registro e manuntenção de dados de cliente
 ### Tela de Editar
 
 ![Tela de Editar][desktop-tela-editar-img]
-
-### Tela de Excluir
-
-![Tela de Excluir][desktop-tela-excluir-img]
 
 <!--## Intalação :floppy_disk:
 
@@ -139,7 +136,6 @@ Se você tem alguma ideia, sugestão, ou viu algum erro, você pode me contar [a
 [desktop-tela-cadastrar-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktop-Tela_Cadastrar.jpg
 [desktop-tela-consultar-gif]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/gif/Desktop-Tela_Consultar.gif
 [desktop-tela-editar-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktop-Tela_Editar.jpg
-[desktop-tela-excluir-img]: https://github.com/GustavoHerreroNunes/robot_solutions/blob/main/readme_src/img/Desktop-Tela_Excluir.jpg
 
 [phpmyadmin-download]: https://www.phpmyadmin.net/downloads/
 [phpmyadmin-dashboard]: https://github.com/GustavoHerreroNunes/webLab/blob/main/assets/readme/phpmyadmin-dashboard
