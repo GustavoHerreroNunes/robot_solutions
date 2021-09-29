@@ -3,7 +3,7 @@
 
     class controllerConsultar{
 
-        //Instância
+        //Instância da classe "clientes"
         private $clientes;
 
         //Construtor da classe
@@ -38,7 +38,7 @@
                         <td><?php echo $registry[3] ?></td>
                         <td><?php echo $registry[4] ?></td>
                         <td><?php echo $registry[5] ?></td>
-                        <td><a href="./editar.html?id=<?php echo $registry[0] ?>"><img src="./img/editar.png" width="25" height="25" alt="Editar Registro"></a></td>
+                        <td><a href="./editar.php?executar=consulta&id=<?php echo $registry[0] ?>"><img src="./img/editar.png" width="25" height="25" alt="Editar Registro"></a></td>
                         <td><a href="./excluir.html?id=<?php echo $registry[0] ?>"><img src="./img/excluir.png" width="25" height="25" alt="Excluir Registro"></a></td>
                     </tr>
                     
