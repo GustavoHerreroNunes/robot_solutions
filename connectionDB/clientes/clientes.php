@@ -99,7 +99,7 @@
 
                         if($param > 0){//Se o parâmetro inserido não for menor ou igual a 0
 
-                            $sql_instruction += " where id = ".$param;
+                            $sql_instruction .= " where id = ".$param;
 
                         }else{
                             return "Parâmeto não pode ser menor ou igual a 0";
@@ -121,6 +121,32 @@
                 }
             }else{
                 return "Parâmetro não inserido";
+            }
+        }
+
+        //Método para Editar os dados de um registro selecionado
+        public function Editar(){
+            try{
+
+                $this->conn = new Connect();
+                $sql = $this->conn->prepare("update clientes set nome = ?, telefone = ?, origem = ?, data_contato = ?, observacao = ? where id = ?");
+                @$sql->bindParam(1, $this->getNome(), PDO::PARAM_STR);
+                @$sql->bindParam(2, $this->getTelefone(), PDO::PARAM_STR);
+                @$sql->bindParam(3, $this->getOrigem(), PDO::PARAM_STR);
+                @$sql->bindParam(4, $this->getData_contato(), PDO::PARAM_STR);
+                @$sql->bindParam(5, $this->getObservacao(), PDO::PARAM_STR);
+                @$sql->bindParam(6, $this->getId(), PDO::PARAM_STR);
+
+                if($sql->execute() == true){
+                    return true;
+                }else{
+                    return false;
+                }
+
+            }catch(PDOException $error){
+
+                return  $error->getMessage();
+
             }
         }
 
