@@ -38,8 +38,16 @@
                         <td><?php echo $registry[3] ?></td>
                         <td><?php echo $registry[4] ?></td>
                         <td><?php echo $registry[5] ?></td>
-                        <td><a href="./editar.php?executar=consulta&id=<?php echo $registry[0] ?>"><img src="./img/editar.png" width="25" height="25" alt="Editar Registro"></a></td>
-                        <td><a href="./excluir.html?id=<?php echo $registry[0] ?>"><img src="./img/excluir.png" width="25" height="25" alt="Excluir Registro"></a></td>
+                        <td>
+                            <a href="./editar.php?executar=consulta&id=<?php echo $registry[0] ?>" class="btn btn-link">
+                                <img src="./img/editar.png" width="25" height="25" alt="Editar Registro">
+                            </a>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-link" onclick="confirmExclusion(<?php echo $registry[0] ?>, '<?php echo $registry[1] ?>')">
+                                <img src="./img/excluir.png" width="25" height="25" alt="Excluir Registro">
+                            </button>
+                        </td>
                     </tr>
                     
                     <?php
