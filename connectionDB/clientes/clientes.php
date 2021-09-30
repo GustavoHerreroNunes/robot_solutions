@@ -150,5 +150,26 @@
             }
         }
 
+        //Método para Excluir um registro selecionado
+        public function Excluir(){
+            try{
+                $this->conn = new Connect();
+                $sql = $this->conn->prepare("delete from clientes where id = ?");
+                @$sql->bindParam(1, $this->getId(), PDO::PARAM_STR);
+
+                if($sql->execute()){
+                    return true;
+                }else{
+                    return false;
+                }
+                
+
+            }catch(PDOException $error){
+
+                return $error->getMessage();
+
+            }
+        }
+
     }
 ?>
