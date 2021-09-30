@@ -63,6 +63,15 @@
       <script src="./js/bootstrap/js/bootstrap.js"></script>
 
       <!--Script base para este arquivo-->
-      <script src="./js/"></script>
+      <script>
+        //Função para pedir confirmação da exclução de um registro
+        function confirmExclusion(registryId, registryName){
+          var awnser = confirm("Deseja apagar o registro de \"" + registryName + "\"?\nEsta ação não pode ser desfeita!");
+
+          if(awnser){
+            document.location = "connectionDB/clientes/controllerExcluir.php?id=" + registryId;
+          }
+        }
+      </script>
     </body>
 </html>
