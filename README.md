@@ -36,6 +36,7 @@ Este projeto é um sistema web para registro e manuntenção de dados de cliente
 - Cadastrar clientes
 - Consultar registros de clientes
 - Editar registros de clientes
+- Excluir registros de clientes
 
 ## Layout da Aplicação :art:
 
