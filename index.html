@@ -12,66 +12,27 @@
         <title>Crud MySQL</title>
     </head>
     <body>
-        <!--Menu Superior-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
-            <div class="container-fluid">
-            <a class="navbar-brand nav-link active mb-0 h1" href="">
-                <img src="./img/logo-dark-2.png" alt="Logo Robot Solutions" width="35" heigth="35" class="d-inline-block align-text-top">
-                Robot Solotuions
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="./cadastrar.html">Cadastrar</a>
-                </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="./consultar.php">Consultar</a>
-                </li>
-                </ul>
+        <!--Conteúdo da página-->
+        <div class="container-fluid bg-dark text-white vh-100 pt-5 text-center">
+            <!--Logo-->
+            <div class="mb-5 mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-xl-5"><img src="./img/logo-dark-2.png" alt="Logo Robot Solutions"></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-xl-5"><p class="fs-1">Robot Solutions</p></div>
+                </div>
             </div>
-            </div>
-        </nav>
 
-        <!--Conteúdo da Página-->
-        <div class="container-flex">
-            <div id="carouselExampleCaptions" class="carousel slide vh-100" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <!--Menu de opções-->
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-xl-5 btn-group">
+                    <a href="./cadastrar.html" class="btn btn-outline-info p-3 py-5 fs-3">Cadastrar</a>
+                    <a href="./consultar.php" class="btn btn-outline-info p-3 py-5 fs-3">Consultar</a>
                 </div>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="./cadastrar.html">
-                        <img src="./img/Anquilo.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Cadastrar</h5>
-                        <p>Cadastre novos clientes ao banco de dados</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a href="./consultar.html">
-                        <img src="./img/Comps.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Consultar</h5>
-                        <p>Veja quais são os atuais clientes em seu banco de dados</p>
-                        </div>
-                    </a>
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
             </div>
+
         </div>
 
     <!--Script base para o Bootstrap-->
