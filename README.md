@@ -27,7 +27,7 @@
 ## Descrição :clipboard:
 
 <p style="text-aling=justify">
-Este projeto é um sistema web para registro e manuntenção de dados de clientes da empresa fictícia Robot Solutions, visando um melhor controle desses dados para possiblitar estrátegias de marketing mais inteligêntes. Desenvolvido durante aulas de Programação para Aplicativos Mobile.
+Este projeto é um sistema web para registro e manuntenção de dados de clientes da empresa fictícia Robot Solutions, visando um melhor controle desses dados para possiblitar estrátegias de marketing mais inteligêntes. Desenvolvido durante aulas de Programação para Aplicativos Web.
 </p>
 
 ## Funcionalidades :gear:
