@@ -4,7 +4,7 @@
 
 [![MySQL Version][mysql-badge]][mysql-doc] [![PHP Version][php-badge]][php-doc] [![Apache Version][apache-badge]][apache-doc]
 
-> Status: :factory: Em desenvolvimento
+> Status: ✔️ Concluído
 
 ## Indíce :bookmark_tabs:
 
